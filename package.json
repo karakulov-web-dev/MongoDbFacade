@@ -1,0 +1,19 @@
+{
+  "name": "@karakulov-web-dev/mongo-db-facade",
+  "version": "1.0.0",
+  "description": "mongo-db-facade",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "scripts": {
+    "start": "tsc -w -p tsconfig.json"
+  },
+  "author": "karakulov.web.dev@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@types/mongodb": "^3.1.31",
+    "mongodb": "^3.3.0-beta2"
+  }
+}
